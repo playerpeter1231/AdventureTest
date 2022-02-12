@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Templates/ItemStats.gd" type="Script" id=1]
+[ext_resource path="res://Textures/Items+UI/item8BIT_hammer.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Hammer"
+stackable = false
+max_count = 1
+type = 0
+description = "Active world: 
+Breaks rocks for secrets and money. Activates crystals.
+Active:
+Deals less damage, stuns enemies for short time."
+texture = ExtResource( 2 )

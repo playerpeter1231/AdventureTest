@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Templates/ItemStats.gd" type="Script" id=1]
+[ext_resource path="res://Textures/Items+UI/item8BIT_bomb.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Bomb"
+stackable = true
+max_count = 10
+type = 1
+description = "Timed explosive. Uses idle texture, danger texture, and explosion texture.
+Active World:
+Opens secret walls. Activates crystals.
+Active:
+Deals moderate damage to enemies."
+texture = ExtResource( 2 )

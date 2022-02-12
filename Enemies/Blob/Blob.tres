@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Templates/EnemyStats.gd" type="Script" id=1]
+[ext_resource path="res://Enemies/Blob/BlobSpriteFrames.res" type="SpriteFrames" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Blob"
+hp = 6
+damage = 1
+poisons = false
+attack_type = 0
+multi_directional = false
+sprite_frames = ExtResource( 2 )
+description = "Basic blob enemy that only hops around and does damage on contact."

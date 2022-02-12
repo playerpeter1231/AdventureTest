@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Textures/Items+UI/item8BIT_bananas.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Templates/ItemStats.gd" type="Script" id=2]
+
+[resource]
+script = ExtResource( 2 )
+name = "Banana"
+stackable = true
+max_count = 5
+type = 1
+description = "Active:
+Small heal to health
+Leaves banana peel that can stun enemies."
+texture = ExtResource( 1 )
